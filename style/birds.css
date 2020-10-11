@@ -119,6 +119,21 @@ a {
   -webkit-text-fill-color: transparent;
 }
 /* secretary bird */
+/* Ring-Billed Gull */
+.Ring-Billed-Gull:hover h2 {
+  background: rgb(229, 232, 235);
+  background: linear-gradient(
+    312deg,
+    rgba(229, 232, 235, 1) 10%,
+    rgba(229, 232, 235, 1) 18%,
+    rgba(51, 51, 60, 1) 37%,
+    rgba(229, 232, 235, 1) 67%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Ring-Billed Gull */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
