@@ -166,6 +166,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 /* Leopard */
+/* Pangolin */
+.Pangolin:hover h2 {
+  background: linear-gradient(to top, #725a52, #664522);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Pangolin */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
