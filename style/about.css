@@ -86,3 +86,64 @@ main {
   color: crimson;
 }
 /* end of contant */
+
+@media screen and (max-width: 2400px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-l.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-m.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-s.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 500px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-ss.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

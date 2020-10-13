@@ -4,6 +4,7 @@ header {
   position: relative;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 .container {
@@ -38,7 +39,6 @@ nav {
   font-weight: 300;
   transform: translateX(-100rem);
   animation: slideIn 0.5s forwards;
-  font-family: "Mr Dafoe", cursive;
 }
 
 .brand span {
