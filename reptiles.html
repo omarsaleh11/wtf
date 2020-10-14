@@ -6,15 +6,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Acme&family=Gruppo&family=Mr+Dafoe&family=Piazzolla&family=Poppins&family=Telex&display=swap"
         rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
     <!-- fonts -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/encyclopedia.css">
+    <link rel="stylesheet" href="./style/reptiles.css">
     <link rel="stylesheet" href="./style/loader.css">
-    <title>OS Encyclopedia</title>
+    <title>Reptiles</title>
 </head>
 
 <body>
@@ -53,17 +57,23 @@
                 </nav>
             </div>
         </header>
-        <main class="main-content">
-            <section>
-                <ul>
-                    <li><a href="./animals.html">animals</a></li>
-                    <li><a href="./insects.html">insects</a></li>
-                    <li><a href="./Birds.html">Birds</a></li>
-                    <li><a href="./fishs.html">Fishs</a></li>
-                    <li><a href="./Reptiles.html">Reptiles</a></li>
-                </ul>
-            </section>
-        </main>
+        <div class="animals-card">
+            <div class="card SaltWater-Crocodile">
+                <div class="card-body">
+                    <img src="./images/SaltWater-Crocodile-ic.webp" alt="SaltWater Crocodile" class="card-img">
+                    <h2 class="card-tittle">
+                        SW Crocodile
+                    </h2>
+                    <p class="card-description">
+                        Earth’s largest living crocodilian and, some say, the animal most likely to eat a human is the
+                        saltwater or estuarine crocodile.
+                    </p>
+                </div><a href="./SaltWater-Crocodile.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+        </div>
         <script src="./js/jquery3.5.1.main.js"></script>
         <script src="./js/main.js"></script>
 </body>

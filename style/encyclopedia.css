@@ -29,8 +29,8 @@ a {
 }
 /* start of contant */
 section {
+  margin-top: 1em;
   width: 100%;
-  height: 100vh;
 }
 section ul {
   margin: 0;
@@ -40,12 +40,13 @@ section ul {
 }
 section ul li {
   list-style: none;
+  margin-top: 1em;
 }
 section ul li a {
   display: block;
   text-decoration: none;
-  height: 20vh;
-  line-height: 20vh;
+  height: 10vh;
+  line-height: 10vh;
   text-align: center;
   font-size: 5em;
   font-family: sans-serif;
@@ -60,11 +61,11 @@ section ul li a:before {
   left: 0;
   width: 100%;
   height: 100%;
+  position: fixed;
   z-index: -1;
   transform: scale(0);
   overflow: hidden;
   text-align: center;
-  line-height: 100vh;
   font-size: 3.2em;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -74,6 +75,7 @@ section ul li:nth-child(1) a:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section ul li:nth-child(2) a:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
@@ -81,6 +83,7 @@ section ul li:nth-child(2) a:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section ul li:nth-child(3) a:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
@@ -88,6 +91,7 @@ section ul li:nth-child(3) a:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section ul li:nth-child(4) a:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
@@ -95,9 +99,15 @@ section ul li:nth-child(4) a:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section ul li:nth-child(5) a:before {
-  background: #3939d2;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("../images/Reptiles-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 section ul li:hover a:before {
   transform: scale(1);
@@ -140,6 +150,28 @@ section ul li:hover a:before {
         rgba(0, 0, 0, 0.1)
       ),
       url("../images/birds-bg-l.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(4) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/fishs-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(5) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/Reptiles-bg-l.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,6 +223,28 @@ section ul li:hover a:before {
     background-position: center;
     background-repeat: no-repeat;
   }
+  section ul li:nth-child(4) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/fishs-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(5) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/Reptiles-bg-m.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 @media screen and (max-width: 800px) {
   .overlay {
@@ -238,6 +292,28 @@ section ul li:hover a:before {
     background-position: center;
     background-repeat: no-repeat;
   }
+  section ul li:nth-child(4) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/fishs-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(5) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/Reptiles-bg-s.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 @media screen and (max-width: 500px) {
   .overlay {
@@ -281,6 +357,28 @@ section ul li:hover a:before {
         rgba(0, 0, 0, 0.1)
       ),
       url("../images/birds-bg-ss.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(4) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/fishs-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section ul li:nth-child(5) a:before {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/Reptiles-bg-ss.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

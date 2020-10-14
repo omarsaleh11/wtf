@@ -162,9 +162,9 @@ nav ul li a:hover::after {
     font-size: 2.5rem;
   }
 
-  .brand {
+  /* .brand {
     font-size: 5rem;
-  }
+  } */
 
   .overlay.menu-open,
   nav.menu-open {
