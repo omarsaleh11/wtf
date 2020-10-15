@@ -88,8 +88,9 @@ main {
 /* start of contant */
 .animals-card {
   margin: 2rem;
+  margin-right: 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 17rem));
+  grid-template-columns: repeat(auto-fit, minmax(17.8rem, 17rem));
   grid-gap: 2rem;
 }
 .card {
