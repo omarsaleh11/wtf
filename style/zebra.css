@@ -204,18 +204,24 @@ img {
   border: 1em;
   cursor: pointer;
 }
-.animals {
-  top: 12%;
-}
 .to:hover {
   background-color: rgb(45, 39, 38);
   right: 0;
+}
+.animals {
+  top: 12%;
 }
 .insects {
   top: 20%;
 }
 .birds {
   top: 28%;
+}
+.reptiles {
+  top: 36%;
+}
+.fishs {
+  top: 44%;
 }
 h1:hover,
 p:hover {

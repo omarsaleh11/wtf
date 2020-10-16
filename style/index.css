@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 9px;
   font-family: "Roboto Cn", sans-serif;
 }
 body {
@@ -88,7 +88,7 @@ main {
 /* start of contant */
 .animals-card {
   margin: 2rem 3rem;
-  margin-right:6rem;
+  margin-right: 6rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(17.8rem, 17rem));
   grid-gap: 2rem;
@@ -105,7 +105,7 @@ main {
 }
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
-  transform: scale(1.05);
+  transform: scale(1.09);
 }
 .card-img {
   height: 12rem;

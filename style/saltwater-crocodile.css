@@ -182,12 +182,12 @@ img {
   border: 1em;
   cursor: pointer;
 }
-.animals {
-  top: 12%;
-}
 .to:hover {
   background-color: rgba(116, 111, 87, 1);
   right: 0;
+}
+.animals {
+  top: 12%;
 }
 .insects {
   top: 20%;
@@ -197,6 +197,9 @@ img {
 }
 .reptiles {
   top: 36%;
+}
+.fishs {
+  top: 44%;
 }
 h1:hover,
 p:hover {

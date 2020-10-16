@@ -213,3 +213,19 @@ h3 {
 .top:hover {
   background-color: crimson;
 }
+
+.animals {
+  top: 12%;
+}
+.insects {
+  top: 20%;
+}
+.birds {
+  top: 28%;
+}
+.reptiles {
+  top: 36%;
+}
+.fishs {
+  top: 44%;
+}

@@ -205,3 +205,18 @@ h3 {
   padding-top: 3em;
   color: rgba(184, 127, 54, 1);
 }
+.animals {
+  top: 12%;
+}
+.insects {
+  top: 20%;
+}
+.birds {
+  top: 28%;
+}
+.reptiles {
+  top: 36%;
+}
+.fishs {
+  top: 44%;
+}

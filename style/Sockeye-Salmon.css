@@ -245,12 +245,12 @@ img {
   border: 1em;
   cursor: pointer;
 }
-.animals {
-  top: 12%;
-}
 .to:hover {
   background-color: #893d2c;
   right: 0;
+}
+.animals {
+  top: 12%;
 }
 .insects {
   top: 20%;
