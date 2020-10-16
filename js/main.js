@@ -19,6 +19,7 @@ open.addEventListener("click", function () {
     changeIcon = true;
   }
 });
+// loader
 const loader = document.querySelector(".loader");
 window.onload = function () {
   setTimeout(function () {
@@ -61,4 +62,13 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+// hhhh
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }

@@ -145,8 +145,7 @@ nav ul li a:hover::after {
     align-items: center;
     height: 100vh;
     text-align: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    place-items: center;
   }
 
   nav ul {

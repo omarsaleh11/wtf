@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 9px;
   font-family: "Roboto Cn", sans-serif;
 }
 body {
@@ -92,8 +92,21 @@ a {
   background-color: rgb(241, 228, 228);
   color: crimson;
 }
-/* shark */
-/* shark */
+/* Sockeye Salmon */
+.Sockeye-Salmon:hover h2 {
+  background: rgb(141, 125, 77);
+  background: linear-gradient(
+    94deg,
+    rgba(141, 125, 77, 1) 1%,
+    rgba(137, 74, 54, 1) 21%,
+    rgba(137, 61, 44, 1) 75%,
+    rgba(141, 125, 77, 1) 86%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Sockeye Salmon */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
