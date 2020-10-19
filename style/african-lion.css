@@ -45,6 +45,8 @@ main {
 .main-content {
   margin: 6em auto;
   padding: 2em 0em;
+  padding-top: 0;
+  margin-top: 0;
   font-size: 1.77rem;
 }
 .main-content p {

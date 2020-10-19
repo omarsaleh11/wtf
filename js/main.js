@@ -72,3 +72,20 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+// language
+function myMenu() {
+  var x = document.getElementById("lang");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+// encyc
+                function openNav() {
+                    document.getElementById("myEncyc").style.height = "100%";
+                }
+
+                function closeNav() {
+                    document.getElementById("myEncyc").style.height = "0%";
+                }

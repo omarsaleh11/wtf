@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="over">
 
 <head>
     <!-- fonts -->
@@ -50,17 +50,40 @@
                         <li><a href="./encyclopedia.html">Encyclopedia</a></li>
                         <li><a href="./about.html">About</a></li>
                         <li><a href="./contact.html">Contact</a></li>
+                        <li>
+                            <a onclick="myMenu()" class="langbtn">Language
+                            </a>
+                            <div id="lang" class="language">
+                                <a href="./index.html" class="active en">English</a>
+                                <a href="./ar/index.html">عربى</a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <div id="myEncyc" class="encyc">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times-circle"></i></a>
+            <div class="encyc-content">
+                <section>
+                    <ul>
+                        <li><a href="./animals.html">animals</a></li>
+                        <li><a href="./insects.html">insects</a></li>
+                        <li><a href="./Birds.html">Birds</a></li>
+                        <li><a href="./fishs.html">Fishes</a></li>
+                        <li><a href="./Reptiles.html">Reptiles</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
         <div id="demo">
+            <span class="encyc-button" onclick="openNav()"><i class="fas fa-paw"></i></span>
             <main class="main-content">
                 <img src="./os.webp" alt="" style="height: 30px; width: auto;">
                 <h3>Encyclopedia</h3>
-                <p>In this Encyclopedia we look at nature with different look, If you want know more about us and where
-                    our
-                    content come from ??</p>
+                <p class="encyc1">In this Encyclopedia we see at nature in a <span> different way.</span>
+                </p>
+                <p class="about">If you want know more about us and where our content come from ??</p>
                 <a href="./about.html">
                     <button class="read-more"> Then Read More</button></a>
             </main>
@@ -176,90 +199,11 @@
                             Read more
                         </button></a>
                 </div>
-                <div class="card bison">
-                    <div class="card-body">
-                        <img src="./images/bison-ic.webp" alt="Bison" class="card-img">
-                        <h2 class="card-tittle">
-                            A_Bison
-                        </h2>
-                        <p class="card-description">
-                            Bison, symbolic animals of the Great Plains, are often mistakenly called buffaloes.
-                            they are the heaviest land animals in North America.
-                        </p>
-                    </div><a href="./bison.html">
-                        <button class="card-btn">
-                            Read more
-                        </button></a>
-                </div>
-                <div class="card zebra">
-                    <div class="card-body">
-                        <img src="./images/zebra-ic.webp" alt="Bison" class="card-img">
-                        <h2 class="card-tittle">
-                            Plains Zebra
-                        </h2>
-                        <p class="card-description">
-                            No animal has a more distinctive coat than the zebra. Each animal's stripes are as unique as
-                            fingerprints—no two are
-                            exactly alike.
-                        </p>
-                    </div><a href="./zebra.html">
-                        <button class="card-btn">
-                            Read more
-                        </button></a>
-                </div>
-                <div class="card w_rhn">
-                    <div class="card-body">
-                        <img src="./images/w_rhn-ic.webp" alt="W-Rhinoceros" class="card-img">
-                        <h2 class="card-tittle">
-                            W_Rhinoceros
-                        </h2>
-                        <p class="card-description">
-                            Both black and white rhinoceroses are actually gray. They are different in lipshape. The
-                            white
-                            rhinoceros relative has a squared lip.
-                        </p>
-                    </div><a href="./w_rhn.html">
-                        <button class="card-btn">
-                            Read more
-                        </button></a>
-                </div>
-                <div class="card Leopard">
-                    <div class="card-body">
-                        <img src="./images/leopard-ic.webp" alt="Leopard" class="card-img">
-                        <h2 class="card-tittle">
-                            Leopard
-                        </h2>
-                        <p class="card-description">
-                            Leopards are graceful and powerful big cats. They live in sub-Saharan Africa, northeast
-                            Africa,
-                            Central Asia, India, and
-                            China.
-                        </p>
-                    </div><a href="./Leopard.html">
-                        <button class="card-btn">
-                            Read more
-                        </button></a>
-                </div>
-                <div class="card Ring-Billed-Gull">
-                    <div class="card-body">
-                        <img src="./images/Ring-Billed-Gull-ic.webp" alt="Ring-Billed Gull" class="card-img">
-                        <h2 class="card-tittle">
-                            R-B_Gull
-                        </h2>
-                        <p class="card-description">
-                            This is the common and familiar “sea­gull” across much of North America yet it is rarely
-                            seen
-                            offshore.
-                        </p>
-                    </div><a href="./ring-billed-gull.html">
-                        <button class="card-btn">
-                            Read more
-                        </button></a>
-                </div>
             </div>
         </div>
-        <script src="./js/jquery3.5.1.main.js"></script>
-        <script src="./js/main.js"></script>
+    </div>
+    <script src="./js/jquery3.5.1.main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -33,11 +33,11 @@ a {
 }
 /* start of contant */
 main {
-  width: 80%;
+  width: 85%;
   font-family: "Piazzolla", serif;
 }
 .main-content {
-  margin: 6em auto;
+  margin: 1em auto;
   padding: 2em 0;
   font-size: 1.77rem;
   text-align: center;
@@ -53,11 +53,24 @@ main {
 }
 .main-content p {
   color: white;
-  line-height: 2.3rem;
-  letter-spacing: 3px;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+}
+.encyc1 {
+  margin-bottom: 0.3em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.encyc1 span {
+  color: crimson;
+}
+.about {
+  font-size: 1.5rem;
+  font-weight: 450;
+  margin-bottom: 0;
 }
 .read-more {
-  margin: 2em 0;
+  margin: 1.5em 0;
   padding: 1em;
   background-color: crimson;
   color: rgb(241, 228, 228);
@@ -70,7 +83,14 @@ main {
   color: crimson;
 }
 /* end of contant */
-
+@media screen and (max-width: 700px) {
+  .main-content {
+    margin: 6em auto;
+  }
+  .main-content p {
+    line-height: 2.8rem;
+  }
+}
 /* fonts  */
 :root {
   --acme: "Acme", sans-serif;
@@ -90,7 +110,7 @@ main {
   margin: 2rem;
   margin-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(17.8rem, 17rem));
+  grid-template-columns: repeat(auto-fit, minmax(17.8rem, 17rem));
   grid-gap: 2rem;
   justify-content: center;
 }
@@ -116,6 +136,7 @@ main {
   padding: 1em;
   font-size: 1.9rem;
   color: crimson;
+  text-align: left;
 }
 .card-description {
   padding: 0 1em;
