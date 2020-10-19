@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 9px;
+  font-family: "Roboto Cn", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+.overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* start of contant */
+main {
+  width: 85%;
+  font-family: "Katibeh", cursive;
+}
+.main-content {
+  margin: 1.5em auto;
+  padding: 2em 0;
+  font-size: 1.77rem;
+  text-align: center;
+}
+.main-content h1,
+.main-content h3 {
+  color: rgb(241, 228, 228);
+  letter-spacing: 4px;
+}
+.main-content h3 {
+  margin-bottom: 1em;
+}
+.main-content p {
+  color: white;
+  line-height: 2.3rem;
+  letter-spacing: 2px;
+}
+.encyc {
+  margin-bottom: 0.3em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.encyc span {
+  color: crimson;
+}
+.about {
+  font-size: 1.5rem;
+  font-weight: 450;
+  margin-bottom: 0;
+}
+.read-more {
+  margin: 1.5em 0;
+  padding: 1em 2em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  border-radius: 20%;
+  border: 1em;
+  cursor: pointer;
+}
+.read-more:hover {
+  background-color: rgb(241, 228, 228);
+  color: crimson;
+}
+/* end of contant */
+
+/* fonts  */
+:root {
+  --acme: "Acme", sans-serif;
+  --roboto: "Roboto Cn", sans-serif;
+  --piazzolla: "Piazzolla", serif;
+  --grupo: "grupo", sans-serif;
+  --mr-dafoe: "Mr Dafoe", sans-serif;
+  --poppins: "Poppins", serif;
+  --telex: "Telex", serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+/* fonts */
+/* start of contant */
+.animals-card {
+  margin: 2rem;
+  margin-right: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17.8rem, 17rem));
+  grid-gap: 2rem;
+  justify-content: center;
+  font-family: "Katibeh", cursive;
+}
+.card {
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
+  transform: scale(1.09);
+  margin: 2.5em auto;
+}
+.card-img {
+  height: 12rem;
+  width: 100%;
+}
+.card-tittle {
+  padding: 1em;
+  font-size: 2rem;
+  color: crimson;
+}
+.card-description {
+  padding: 0 1em;
+  color: rgb(241, 228, 228);
+  font-size: 1.42rem;
+  text-align: right;
+}
+.card-btn {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  border-radius: 20%;
+  border: 1em;
+  cursor: pointer;
+}
+.card-btn:hover {
+  background-color: rgb(241, 228, 228);
+  color: crimson;
+}
+/* honey badger */
+
+.hb:hover h2 {
+  background: linear-gradient(to top, #282527, #c3bdb6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* honey badger */
+/* cheetah */
+.cth:hover h2 {
+  background: linear-gradient(to top, #e8c1a2, #a8733a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* cheetah */
+/* bald eagle */
+.bald-eagle:hover h2 {
+  background: rgb(202, 169, 136);
+  background: linear-gradient(
+    347deg,
+    rgba(202, 169, 136, 1) 8%,
+    rgba(37, 30, 27, 1) 30%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* bald eagle */
+/* mantis */
+.mnts:hover h2 {
+  background: linear-gradient(to top, #b2da6d, #3d6e2f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* mantis */
+/* black widow */
+.b_wdw:hover h2 {
+  background: rgb(42, 37, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(42, 37, 33, 1) 23%,
+    rgba(156, 39, 14, 1) 50%,
+    rgba(42, 37, 33, 1) 70%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2:hover small {
+  display: initial;
+}
+.animals-card small {
+  display: none;
+}
+/* black widow */
+/* african lion */
+.african-lion:hover h2 {
+  background: rgb(65, 30, 15);
+  background: linear-gradient(
+    18deg,
+    rgba(65, 30, 15, 1) 12%,
+    rgba(184, 127, 54, 1) 48%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* african lion */
+/* secretary bird */
+.secretary-bird:hover h2 {
+  background: rgb(19, 20, 16);
+  background: linear-gradient(
+    312deg,
+    rgba(19, 20, 16, 1) 51%,
+    rgba(198, 201, 200, 1) 72%,
+    rgba(158, 58, 23, 1) 97%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* secretary bird */
+/* end of contant */
+@media screen and (max-width: 500px) {
+  .animals-card {
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 18rem));
+  }
+}
+@media screen and (max-width: 2400px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background-l.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background-m.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 900px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background-s.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 500px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background-ss.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

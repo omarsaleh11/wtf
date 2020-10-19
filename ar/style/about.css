@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+:root {
+  --font: "Katibeh", cursive;
+}
+/* fonts */
+html {
+  font-size: 10px;
+  font-family: "Roboto Cn", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/background2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+.overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/background2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+/* start of contant */
+main {
+  width: 80%;
+  font-family: var(--font);
+}
+.main-content {
+  margin: 2em auto;
+  padding: 1.5em 0;
+  font-size: 1.77rem;
+  text-align: right;
+}
+.info {
+  margin-bottom: 1em;
+}
+
+.main-content h1,
+.main-content h3 {
+  color: rgb(241, 228, 228);
+  letter-spacing: 4px;
+  margin-bottom: 0.7em;
+}
+/* .main-content h3 { }*/
+.info small {
+  color: rgb(241, 228, 228);
+}
+.info h1 {
+  color: crimson;
+}
+.main-content p {
+  color: white;
+  line-height: 2.3rem;
+  letter-spacing: 2px;
+  max-width: 69ch;
+  font-family: var(--font);
+}
+.read-more {
+  margin: 2em 0;
+  padding: 1em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  border-radius: 20%;
+  border: 1em;
+  cursor: pointer;
+}
+.read-more:hover {
+  background-color: rgb(241, 228, 228);
+  color: crimson;
+}
+.src-links {
+  text-decoration: underline;
+  font-family: "Piazzolla", serif;
+}
+.src-links:hover {
+  color: crimson;
+}
+/* end of contant */
+
+@media screen and (max-width: 2400px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-l.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-m.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-s.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 500px) {
+  body,
+  .overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/background2-ss.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
