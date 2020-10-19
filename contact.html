@@ -59,13 +59,13 @@
         </header>
         <main class="main-content" id="demo">
             <div class="contact">
-                <form action="./contact1.html" class="contact-form">
+                <form action="./php/contact.php" method="POST" class="contact-form">
                     <h1><small> Get in</small> Touch</h1>
-                    <input type="text" placeholder="Your Name" class="contact-text">
-                    <input type="email" placeholder="Your E-Mail" class="contact-text">
-                    <input type="text" placeholder="Phone Namber" class="contact-text">
-                    <textarea class="contact-text" placeholder="Your Massege"></textarea>
-                    <input type="submit" value="send" class="contact-btn">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-text">
+                    <input type="email" name="email" placeholder="Your E-Mail" class="contact-text">
+                    <input type="text" name="subgect" placeholder="Subject" class="contact-text">
+                    <textarea class="contact-text" name="massege" placeholder="Your Message"></textarea>
+                    <input type="submit" value="send" name="send" class="contact-btn">
                 </form>
             </div>
         </main>
