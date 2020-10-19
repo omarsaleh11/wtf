@@ -61,10 +61,10 @@
             <div class="contact">
                 <form action="./php/contact.php" method="POST" class="contact-form">
                     <h1><small> Get in</small> Touch</h1>
-                    <input type="text" name="name" placeholder="Your Name" class="contact-text">
-                    <input type="email" name="email" placeholder="Your E-Mail" class="contact-text">
-                    <input type="text" name="subgect" placeholder="Subject" class="contact-text">
-                    <textarea class="contact-text" name="massege" placeholder="Your Message"></textarea>
+                    <input type="text" name="name" placeholder="Your Name" class="contact-text" required>
+                    <input type="email" name="email" placeholder="Your E-Mail" class="contact-text" required>
+                    <input type="text" name="subgect" placeholder="Subject" class="contact-text" required>
+                    <textarea class="contact-text" name="massege" placeholder="Your Message" required></textarea>
                     <input type="submit" value="send" name="send" class="contact-btn">
                 </form>
             </div>
