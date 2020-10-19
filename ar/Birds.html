@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Gruppo&family=Mr+Dafoe&family=Piazzolla&family=Poppins&family=Telex&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/birds.css">
+    <link rel="icon" href="./icons/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style/loader.css">
+    <title>طيور</title>
+</head>
+
+<body>
+    <div class="loader" dir="ltr">
+        <div class="bookshelf_wrapper">
+            <ul class="books_list">
+                <li class="book_item first"></li>
+                <li class="book_item second"></li>
+                <li class="book_item third"></li>
+                <li class="book_item fourth"></li>
+                <li class="book_item fifth"></li>
+                <li class="book_item sixth"></li>
+            </ul>
+            <div class="shelf"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="image">
+        </div>
+        <header dir="ltr">
+            <div class="menu-toggle" id="hamburger">
+                <i class="fas fa-bars" onclick="myFunction()"></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="container">
+                <nav>
+                    <h1 class="brand"><a href="./index.html"><img src="./logo.webp" alt=""
+                                style="height: 40px; width: auto; padding: 0; margin: 0;">
+                            <span><small> Encyclopedia</small></span></a></h1>
+                    <ul>
+                        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="./encyclopedia.html">الموسوعة</a></li>
+                        <li><a href="./about.html">حول الموسوعة</a></li>
+                        <li><a href="./contact.html">تواصل معنا</a></li>
+                        <li>
+                            <a onclick="myMenu()" class="langbtn">اللغات
+                            </a>
+                            <div id="lang" class="language">
+                                <a href="../Birds.html" class="en">English</a>
+                                <a href="./Birds.html" class="active">عربى</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="demo">
+            <div class="animals-card">
+                <div class="card bald-eagle">
+                    <div class="card-body">
+                        <img src="./images/bald-eagle-ic.webp" alt="Bald Eagle" class="card-img">
+                        <h2 class="card-tittle">
+                            عقاب رخماء <small class="wdw">(النسر الأصلع)</small>
+                        </h2>
+                        <p class="card-description">
+                            عقاب رخماء برأسه المغطى بالريش
+                            الثلجى وذيله الأبيض . هو رمز الطيور الوطنى للولايات المتحدة- ومع ذلك كان قريب من الانقراض فى
+                            القرن الماضى .
+                        </p>
+                    </div><a href="./bald-eagle.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card secretary-bird">
+                    <div class="card-body">
+                        <img src="./images/secretary-bird-ic.webp" alt="secretary-bird" class="card-img">
+                        <h2 class="card-tittle">
+                            صقور الجديان
+                        </h2>
+                        <p class="card-description">
+                            هذه الطيور الجارحة من السافانا والأراضى العشبية والشجيرات فى جنوب الصحراء الكبرى بأفريقيا
+                            تسطيغ الوقوف على أرتفاع أربعة أقدام تقريبا.
+                        </p>
+                    </div><a href="./secretary-bird.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card Ring-Billed-Gull">
+                    <div class="card-body">
+                        <img src="./images/Ring-Billed-Gull-ic.webp" alt="Ring-Billed Gull" class="card-img">
+                        <h2 class="card-tittle">
+                            نورس ديلاوير
+                        </h2>
+                        <p class="card-description">
+                            هذا هو "النورس" الشائع والمألوف في معظم أنحاء أمريكا الشمالية ومع ذلك نادرًا ما يتم رؤيته في
+                            الخارج. هذا قابل للتكيف
+                            وجريء بشكل ملحوظ.
+                        </p>
+                    </div><a href="./ring-billed-gull.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+            </div>
+        </div>
+        <script src="./js/jquery3.5.1.main.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

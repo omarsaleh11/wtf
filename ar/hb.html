@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Gruppo&family=Mr+Dafoe&family=Piazzolla&family=Poppins&family=Telex&display=swap"
+        rel="stylesheet">
+
+    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/loader.css">
+    <link rel="stylesheet" href="./style/hb.css">
+    <link rel="stylesheet" href="./style/slides.css">
+    <link rel="shortcut icon" href="./icons/Honey-Badger-ic.webp" type="image/x-icon">
+    <title>غرير العسل</title>
+</head>
+
+<body>
+    <div class="loader" dir="ltr">
+        <div class="bookshelf_wrapper">
+            <ul class="books_list">
+                <li class="book_item first"></li>
+                <li class="book_item second"></li>
+                <li class="book_item third"></li>
+                <li class="book_item fourth"></li>
+                <li class="book_item fifth"></li>
+                <li class="book_item sixth"></li>
+            </ul>
+            <div class="shelf"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="image">
+        </div>
+        <header dir="ltr" dir="ltr">
+            <div class="menu-toggle" id="hamburger">
+                <i class="fas fa-bars" onclick="myFunction()"></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="container">
+                <nav>
+                    <h1 class="brand"><a href="./index.html"><img src="./logo.webp" alt=""
+                                style="height: 40px; width: auto; padding: 0; margin: 0;">
+                            <span><small> Encyclopedia</small></span></a></h1>
+                    <ul>
+                        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="./encyclopedia.html">الموسوعة</a></li>
+                        <li><a href="./about.html">حول الموسوعة</a></li>
+                        <li><a href="./contact.html">تواصل معنا</a></li>
+                        <li>
+                            <a onclick="myMenu()" class="langbtn">اللغات
+                            </a>
+                            <div id="lang" class="language">
+                                <a href="../hb.html" class="en">English</a>
+                                <a href="./hb.html" class="active">عربى</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="demo">
+            <main class="main-content">
+                <div class="main-info" id="info">
+                    <div class="info">
+                        <img src="./images/honey-badger-s.webp" alt="Honey Badger">
+                        <h1>غرير العسل</h1>
+                        <p>يقول البعض أن غرير العسل لا يهتم ، لكن هذه السمعة ليست عادلة. في الواقع ، هؤلاء الأفراد
+                            متوسطي الحجم من عائلة ابن عرس
+                            لديهم مواقف فائقة الحجم.
+                        </p>
+                    </div>
+                    <div class="todown"><a href="#videos">
+                            <button class="read-more">
+                                شاهد فيديوهات عنه
+                            </button>
+                        </a>
+                    </div>
+                    <div class="todown"><a href="#quick-info">
+                            <button class="read-more">
+                                أقرأ معلومات سريعة ومدهشة عنه
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="sec-info like">
+                    <div class="info">
+                        <h1>الأرتباط</h1>
+                        <p>
+                            يرتبط غرير العسل ، المعروف أيضًا باسم الراتيل ، بالظربان وثعالب الماء والقوارض وغيرها من
+                            حيوانات الغرير. تحصل هذه
+                            الحيوانات النهمة على اسمها من ولعها بالتغذية على العسل ويرقات نحل العسل. كما يأكلون الحشرات
+                            ، والبرمائيات ، والزواحف ،
+                            والطيور ، والثدييات ، وكذلك الجذور ، والمصابيح ، والتوت ، والفواكه.
+                        </p>
+                        <h1>الجسد</h1>
+                        <p>
+                            على الرغم من أنهم يبحثون عن طعامهم في معظم الأوقات ، إلا أنهم سيسعدون من أكل اللحوم
+                            الحيوانات الأخرى أو يبحثون عن قتل
+                            الحيوانات الكبيرة عندما تسنح الفرصة. تسمح أسنانهم البارزة والحادة وقوانينهم الطويلة وبنيتهم
+                            ​​الممتلئة بنزع اللحم بسهولة
+                            من العظام.
+                        </p>
+                        <h1>الموطن</h1>
+                        <p>
+                            يمكن العثور على غرير العسل في معظم أنحاء إفريقيا جنوب الصحراء والمملكة العربية السعودية
+                            وإيران وغرب آسيا.
+                        </p>
+                        <p class="badger"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/97/Honey_Badger_area.png"
+                                alt="Honey Badger"></p>
+                        <p>
+                            يمكنهم التكيف مع مجموعة متنوعة من الظروف ، من الغابات المطيرة الدافئة إلى الجبال الباردة.
+                        </p>
+                        <h1>النطاق</h1>
+                        <p>
+                            يمكن أن تصل مساحتها إلى حوالي 193 ميلاً مربعاً (500 كيلومتر مربع).
+                        </p>
+                        <h1>البيوت</h1>
+                        <p>
+                            يجيد غرير العسل تحويل الشقوق الصخرية والأشجار المجوفة إلى ملاجئ ، كما سيصنع منازل في أوكار
+                            مهجورة لحيوانات أخرى مثل
+                            النيص والنمس الأصفر.
+                        </p>
+                        <h1>النشاط</h1>
+                        <p>
+                            تنشط معظم حيوانات غرير العسل على مدار اليوم ، على الرغم من أنها قد تفضل بالقرب من المستوطنات
+                            البشرية غطاء الظلام. غالبًا
+                            ما يتم رؤيتهم بمفردهم ، على الرغم من أنه ليس من غير المألوف اكتشاف أزواج التزاوج. يتزاوج
+                            غرير العسل طوال العام وغالبًا
+                            ما يكون لديه شبل واحد فقط في كل مرة.
+                        </p>
+                        <h1>التهديدات</h1>
+                        <P>
+                            على الرغم من انتشار غرير العسل على نطاق واسع ويعتبر وفيرًا ، إلا أنه يتم اصطيادهم أو
+                            اضطهادهم في مناطق معينة ، خاصةً
+                            عندما يتعارضون مع المزارعين ومربي النحل. كما تؤكل كلحوم الطرائد وتحصد لتجارة الطب التقليدي ؛
+                            سمعة الشجاعة والمثابرة تجعل
+                            غرير العسل مشهورًا في الطب التقليدي.
+                        </P>
+                        <h1>التعداد</h1>
+                        <p>
+                            ومع هذه التهديدات فيبقى الأقل قلقاّّ
+                        </p>
+                        <p>
+                            <img src="./images/badger-info.webp" alt="badger-info">
+                        </p>
+                        <h1>الحماية</h1>
+                        <p>
+                            يتطلب منع فقدان غرير العسل من تلك المناطق يقظة من السكان المحليين.
+                        </p>
+                        <div id="quick-info"></div>
+                    </div>
+            </main>
+            <div class="slidetext">
+                <div id="slider" dir="ltr">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide_1">
+                                    <div class="slide-content">
+                                        <h1>هل كنت تعلم ؟
+                                        </h1>
+                                        <div class="undertext"></div>
+                                        <p>توجد غدة عند قاعدة ذيله، يخزن غرير العسل سائلاً كريه الرائحة مثل قوة الظربان.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_2">
+                                    <div class="slide-content">
+                                        <h1>هل كنت تعلم ؟
+                                        </h1>
+                                        <div class="undertext"></div>
+                                        <p>ذكور غرير العسل أكبر بمقدار الثلث على الأقل من الإناث.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_3">
+                                    <div class="slide-content">
+                                        <h1>هل كنت تعلم ؟
+                                        </h1>
+                                        <div class="undertext"></div>
+                                        <p>قد يكون التسمم قد دفع غرير العسل إلى الانقراض في العديد من المجالات.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_4">
+                                    <div class="slide-content">
+                                        <h1>هل كنت تعلم ؟
+                                        </h1>
+                                        <div class="undertext"></div>
+                                        <p>
+                                            يمكن أن يصطاد أزواج غرير العسل معًا في بعض الأحيان.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 style="justify-content: center;" class="vid-img">فيديوهات & صور</h2>
+            </div>
+            <div class="slideshow" dir="ltr" id="videos">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext num1">1 / 6</div>
+                        <a data-flickr-embed="true"
+                            href="https://www.flickr.com/search/?text&#x3D;Honey%20Badger&amp;dimension_search_mode&#x3D;min&amp;height&#x3D;1024&amp;width&#x3D;1024&amp;orientation&#x3D;landscape%2Cpanorama&amp;sort&#x3D;interestingness-desc"
+                            title="Flickr Search"><img
+                                src="https://live.staticflickr.com/65535/49966068776_73be39a8db_z.jpg" width="100%"
+                                height="375" alt="Flickr Search"></a>
+                        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <iframe width="100%" height="375" src="https://www.youtube.com/embed/v3WjnLn9p3U"
+                            frameborder="0"
+                            allow="accelerometer; autoplay=0; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <iframe width="100%" height="375" src="https://www.youtube.com/embed/14i02f31WDI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </video>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <iframe width="100%" height="375" src="https://www.youtube.com/embed/DkvLCjFiODw"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <iframe width="100%" height="375" src="https://www.youtube.com/embed/Wpt1jQMbw3I"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <iframe width="100%" height="375" src="https://www.youtube.com/embed/c36UNSoJenI"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor"
+                                src="https://live.staticflickr.com/65535/49966068776_73be39a8db_z.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(1)" alt="flikr images">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://i.ytimg.com/vi/v3WjnLn9p3U/maxresdefault.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(2)"
+                                alt="Documentary video by animalogic">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://i.ytimg.com/vi/14i02f31WDI/maxresdefault.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(3)"
+                                alt="Honey Badger bury cow by nationalgeographic">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://cdn.jwplayer.com/thumbs/CpXdNWGV-720.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(4)"
+                                alt="A Honey Badger and Mole Snake Fight to the Death">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor"
+                                src="https://kanvas.smithsoniandigital.com/honey-badger-grit/eps01/1529687480/0_0_3450985_eps01_1920x1080/1920x1080.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(5)"
+                                alt="This Honey Badger Endures Bee Stings for His Favorite Treat">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://i.ytimg.com/vi/c36UNSoJenI/maxresdefault.jpg"
+                                style="width:100%; height: 100px;" onclick="currentSlide(6)"
+                                alt="Stoffel, the honey badger that can escape from anywhere! - BBC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="to-animals">
+                <a href="./animals.html">
+                    <button class="animals to">
+                        ثدييات
+                    </button>
+                </a>
+            </div>
+            <div class="to-insects">
+                <a href="./insects.html">
+                    <button class="insects to">
+                        حشرات
+                    </button>
+                </a>
+            </div>
+            <div class="to-birds">
+                <a href="./birds.html">
+                    <button class="birds to">
+                        طيور
+                    </button>
+                </a>
+            </div>
+            <div class="to-reptiles">
+                <a href="./reptiles.html">
+                    <button class="reptiles to">
+                        زواحف
+                    </button>
+                </a>
+            </div>
+            <div class="to-fishs">
+                <a href="./fishs.html">
+                    <button class="fishs to">
+                        سمك
+                    </button>
+                </a>
+            </div>
+            <div class="credits">
+                <h1>المصادر</h1>
+                <p>
+                <ul>
+                    <li><a
+                            href="https://www.nationalgeographic.com/animals/mammals/h/honey-badger/">NationalGeographic</a>
+                    </li>
+                    <li><a href="https://facts.net/nature/animals/honey-badger-facts">
+                            Facts.net</a></li>
+                    <li><a
+                            href="https://www.flickr.com/search/?text=Honey%20Badger&dimension_search_mode=min&height=1024&width=1024&">Flickr
+                            For
+                            Images</a></li>
+                </ul>
+                </p>
+            </div>
+            <div class="totop">
+                <a href="#info">
+                    <button class="read-more top">
+                        to top
+                    </button>
+                </a>
+            </div>
+        </div>
+        <script src="./js/jquery3.5.1.main.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

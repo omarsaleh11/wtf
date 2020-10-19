@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Gruppo&family=Mr+Dafoe&family=Piazzolla&family=Poppins&family=Telex&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/loader.css">
+    <link rel="icon" href="./icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style/about.css">
+
+    <title>حول الموسوعة</title>
+</head>
+
+<body>
+    <div class="loader" dir="ltr">
+        <div class="bookshelf_wrapper">
+            <ul class="books_list">
+                <li class="book_item first"></li>
+                <li class="book_item second"></li>
+                <li class="book_item third"></li>
+                <li class="book_item fourth"></li>
+                <li class="book_item fifth"></li>
+                <li class="book_item sixth"></li>
+            </ul>
+            <div class="shelf"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="image">
+        </div>
+        <header dir="ltr" dir="ltr">
+            <div class="menu-toggle" id="hamburger">
+                <i class="fas fa-bars" onclick="myFunction()"></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="container">
+                <nav>
+                    <h1 class="brand"><a href="./index.html"><img src="./logo.webp" alt=""
+                                style="height: 40px; width: auto; padding: 0; margin: 0;">
+                            <span><small> Encyclopedia</small></span></a></h1>
+                    <ul>
+                        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="./encyclopedia.html">الموسوعة</a></li>
+                        <li><a href="./about.html">حول الموسوعة</a></li>
+                        <li><a href="./contact.html">تواصل معنا</a></li>
+                        <li>
+                            <a onclick="myMenu()" class="langbtn">اللغات
+                            </a>
+                            <div id="lang" class="language">
+                                <a href="../about.html" class="en">English</a>
+                                <a href="./about.html" class="active">عربى</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content" id="demo">
+            <div class="info">
+                <h1><small>عن </small>الموسوعة</h1>
+                <p>هذه الموسوعة تتميز بأستخدامنا العديد من المصادر , الصور و الفيديوهات التى تعبر عن الصفحة او المحتوى
+                    الذى تقرأه . وهذا المحتوى مجانا بشكل تام فى جميع الأوقات .</p>
+            </div>
+            <div class="info">
+                <h1><small>عن </small>المحتوى</h1>
+                <p>
+                    نحاول في هذه الموسوعة أن نغطي كل المعلومات ، لكن المحتوى سيكون أكثر عن الحيوانات التي تعيش حولنا على
+                    هذا الكوكب وغير
+                    معروفة للبعض ، وكذلك أشياء عن الطبيعة من حولنا.
+                </p>
+            </div>
+            <div class="info">
+                <h1><small>عن </small>المصادر</h1>
+                <p>
+                    نحن نحاول قدر الإمكان فى هذه الموسوعة الخصول على الكثير من المصادر , ولكننا بالفعل نحصل على
+                    معلوماتنا من مواقع وقنوات مدهشة وموثقة بالتأكيد قبل كل شئ مثل <a class="src-links"
+                        href="https://www.nationalgeographic.com/" target="_blank" rel="National Geographic">National
+                        Geographic</a>
+                    , <a class="src-links" href="https://www.bbcearth.com/" target="_blank" rel="BBC Earth"> BBC
+                        Earth</a>
+                    و <a class="src-links" href="https://www.youtube.com/channel/UCwg6_F2hDHYrqbNSGjmar4w"
+                        target="_blank" rel="Animalogic">Animalogic </a> على اليوتيوب ونحاول الحصول على المزيد من
+                    المصادر
+                    قدر الإمكان وتكون موثقة 100% , وبالتأكيد نحن نعرض عليك الفيديوهات و الصور التى تثبت الذى مكتوب قدر
+                    الإمكان .
+                </p>
+            </div>
+            <div class="info">
+                <h1>عنى</h1>
+                <p>أنا طالب جامعي أحاول إظهار العالم والطبيعة والحيوانات الفريدة التي تحيط بنا من خلال هذه الموسوعة
+                    وهناك الكثير من الناس
+                    الذين لا يعرفون شيئًا عنها تمامًا.</p>
+            </div>
+        </main>
+        <script src="./js/jquery3.5.1.main.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

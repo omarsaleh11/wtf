@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Gruppo&family=Mr+Dafoe&family=Piazzolla&family=Poppins&family=Telex&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+    <!-- fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/animals.css">
+    <link rel="stylesheet" href="./style/loader.css">
+    <link rel="icon" href="./icons/icon.webp" type="image/x-icon">
+    <title>ثدييات</title>
+</head>
+
+<body>
+    <div class="loader" dir="ltr">
+        <div class="bookshelf_wrapper">
+            <ul class="books_list">
+                <li class="book_item first"></li>
+                <li class="book_item second"></li>
+                <li class="book_item third"></li>
+                <li class="book_item fourth"></li>
+                <li class="book_item fifth"></li>
+                <li class="book_item sixth"></li>
+            </ul>
+            <div class="shelf"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="image">
+        </div>
+        <header dir="ltr">
+            <div class="menu-toggle" id="hamburger">
+                <i class="fas fa-bars" onclick="myFunction()"></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="container">
+                <nav>
+                    <h1 class="brand"><a href="./index.html"><img src="./logo.webp" alt=""
+                                style="height: 40px; width: auto; padding: 0; margin: 0;">
+                            <span><small> Encyclopedia</small></span></a></h1>
+                    <ul>
+                        <li><a href="./index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="./encyclopedia.html">الموسوعة</a></li>
+                        <li><a href="./about.html">حول الموسوعة</a></li>
+                        <li><a href="./contact.html">تواصل معنا</a></li>
+                        <li>
+                            <a onclick="myMenu()" class="langbtn">اللغات
+                            </a>
+                            <div id="lang" class="language">
+                                <a href="../animals.html" class="en">English</a>
+                                <a href="./animals.html" class="active">عربى</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="demo">
+            <div class="animals-card">
+                <div class="card hb">
+                    <div class="card-body">
+                        <img src="./images/hb-ic.webp" alt="Honey Badger" class="card-img">
+                        <h2 class="card-tittle">
+                            غرير العسل
+                        </h2>
+                        <p class="card-description">
+                            غرير العسل سيأكل أى شئ فى طريقه فهو ببساطة من آكلى اللحوم ومع خصائص جسده القوية سيأكل حتى
+                            الطيور والثدييات .
+                        </p>
+                    </div><a href="./hb.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card cth">
+                    <div class="card-body">
+                        <img src="./images/cth-ic.webp" alt="Cheetah" class="card-img">
+                        <h2 class="card-tittle">
+                            الفهود
+                        </h2>
+                        <p class="card-description">
+                            الفهود هى القطط الكبيرة الوحيدة التى لا تستطيع الزئير . ومعدلات وفيات أشبال الفهود فى
+                            أفريقيا تصل الى 95% . الفهود تشرب مرة واحدة كل ثلاث أيام .
+                        </p>
+                    </div><a href="./cth.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card w_rhn">
+                    <div class="card-body">
+                        <img src="./images/w_rhn-ic.webp" alt="White Rhinoceros" class="card-img">
+                        <h2 class="card-tittle">
+                            وحيد القرن الأبيض
+                        </h2>
+                        <p class="card-description">
+                            فى الواقع وحيد القرن الأبيض والأسود لونهما رمادى , ولكنهما مختلفان فى شكل الشفاة . وحيد
+                            القرن الأبيض له شفاه مربعة الشكل.
+                        </p>
+                    </div><a href="./w_rhn.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card african-lion">
+                    <div class="card-body">
+                        <img src="./images/african-lion-ic.webp" alt="African lions" class="card-img">
+                        <h2 class="card-tittle">
+                            أسود أفريقيا
+                        </h2>
+                        <p class="card-description">
+                            الأسود الأفريقية تحظى بالتبجيل حول العالم , ومع ذلك عددها تقلص الى النصف
+                            فى خلال 25 عام الماضية . زئير الأسد يمكن سماعه عن بعد 8 كيلو متر .
+                        </p>
+                    </div><a href="./african-lion.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card bison">
+                    <div class="card-body">
+                        <img src="./images/bison-ic.webp" alt="Bison" class="card-img">
+                        <h2 class="card-tittle">
+                            البَيسون الأمريكى
+                        </h2>
+                        <p class="card-description">
+                            غالباََ ما يطلق على البيسون عن طريق الخطأ اسم الجاموس , فهى أثقل الحيوانات البرية فى أمريكا
+                            الشمالية . وهى حيوانات رمزية فى السهول الكبرى
+                        </p>
+                    </div><a href="./bison.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card zebra">
+                    <div class="card-body">
+                        <img src="./images/zebra-ic.webp" alt="Bison" class="card-img">
+                        <h2 class="card-tittle">
+                            الحمار الوحشى <small>(حمار الزرد السهلى)</small>
+                        </h2>
+                        <p class="card-description">
+                            لا يوجد حيوان له غطاء أكثر تميزاََ مثل الحمار الوحشى . هذه الحمير فى الأصل سوداء
+                            بخطوط بيضاء . عندما تسافر المجموعة سيقود الذكر الحريم ورأسه منخفضة وأذنيه الى الخلف .
+                        </p>
+                    </div><a href="./zebra.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card Leopard">
+                    <div class="card-body">
+                        <img src="./images/leopard-ic.webp" alt="Leopard" class="card-img">
+                        <h2 class="card-tittle">
+                            ليوبارد <small>(النَّمِرُ)</small>
+                        </h2>
+                        <p class="card-description">
+                            النمور (ليوبارد) هى قطط كبيرة رشيقة وقوية . فهم يعيشون في أفريقيا جنوب الصحراء الكبرى ،
+                            وشمال شرق إفريقيا ، وآسيا الوسطى ، والهند ، والصين.
+                        </p>
+                    </div><a href="./Leopard.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card Pangolin">
+                    <div class="card-body">
+                        <img src="./images/pangolin-ic.webp" alt="Pangolin" class="card-img">
+                        <h2 class="card-tittle">
+                            بنغول <small>(آكل النمل الحرشفي)</small>
+                        </h2>
+                        <p class="card-description">
+                            أصبح البنغولين الخجول وغير المؤذي معروفًا بشكل متزايد لسبب واحد: يُعتقد أنه أكثر الثدييات
+                            غير البشرية تعرضًا للاتجار في
+                            العالم.
+                        </p>
+                    </div><a href="./Pangolin.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+                <div class="card Jaguar">
+                    <div class="card-body">
+                        <img src="./images/jaguar-ic.webp" alt="Jaguar" class="card-img">
+                        <h2 class="card-tittle">
+                            يغور <small>(النمر الأمريكى)</small> <small>(جاغوار)</small>
+                        </h2>
+                        <p class="card-description">
+                            اليغور (الجاغوار) هو القط الكبير الوحيد فى الأمريكتين وثالث أكبر قط فى العالم بعد النمور
+                            والأسود . وهى الوحيدة الكبيرة التى تتميز بالسباحة .
+                        </p>
+                    </div><a href="./jaguar.html">
+                        <button class="card-btn">
+                            أقرأ المزيد من هنا
+                        </button></a>
+                </div>
+            </div>
+        </div>
+        <script src="./js/jquery3.5.1.main.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

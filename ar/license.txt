@@ -1,0 +1,172 @@
+https://pmdvod.nationalgeographic.com/NG_Video/500/643/170331-badger-burying-calf-carcass-vin_txtd_stereo_ds1702001-110__159383.mp4
+
+video about hony badger bury cow
+
+            <div class="card cth">
+                <div class="card-body">
+                    <img src="./images/cth-ic.webp" alt="Cheetah" class="card-img">
+                    <h2 class="card-tittle">
+                        Cheetah
+                    </h2>
+                    <p class="card-description">
+                        Cheetahs are the only big cats that can’t roar, and Mortality rates for cheetah cubs in Africa
+                        run as high as 95%.
+                    </p>
+                </div><a href="./cth.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card w_rhn">
+                <div class="card-body">
+                    <img src="./images/w_rhn-ic.webp" alt="W-Rhinoceros" class="card-img">
+                    <h2 class="card-tittle">
+                        W_Rhinoceros
+                    </h2>
+                    <p class="card-description">
+                        Both black and white rhinoceroses are actually gray. They are different in lipshape. The white
+                        rhinoceros relative has a squared lip.
+                    </p>
+                </div><a href="./w_rhn.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card bald-eagle">
+                <div class="card-body">
+                    <img src="./images/bald-eagle-ic.webp" alt="Bald Eagle" class="card-img">
+                    <h2 class="card-tittle">
+                        Bald Eagle
+                    </h2>
+                    <p class="card-description">
+                        The bald eagle, with its snowy-feathered head and white tail, is the proud
+                        national
+                        bird symbol of the United
+                        States—yet the bird was nearly wiped out there.
+                    </p>
+                </div><a href="./bald-eagle.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card mnts">
+                <div class="card-body">
+                    <img src="./images/mnts-ic.webp" alt="Praying Mantis" class="card-img">
+                    <h2 class="card-tittle">
+                        Praying Mantis
+                    </h2>
+                    <p class="card-description">
+                        The word mantis comes from the Greek mantikos, for soothsayer or prophet.
+                    </p>
+                </div><a href="./mnts.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card b_wdw">
+                <div class="card-body">
+                    <img src="./images/b_wdw-ic.webp" alt="Black Widow" class="card-img">
+                    <h2 class="card-tittle">
+                        Black Widow
+                    </h2>
+                    <p class="card-description">
+                        Black widow spiders are arachnids that are known for the females' unique appearance and tendency
+                        to eat their mates.
+                    </p>
+                </div><a href="./b_wdw.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card african-lion">
+                <div class="card-body">
+                    <img src="./images/african-lion-ic.webp" alt="African lions" class="card-img">
+                    <h2 class="card-tittle">
+                        African lions
+                    </h2>
+                    <p class="card-description">
+                        African lions are revered the world over, but their population has shrunk in half over the past
+                        25 years.
+                    </p>
+                </div><a href="./african-lion.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card bison">
+                <div class="card-body">
+                    <img src="./images/bison-ic.webp" alt="Bison" class="card-img">
+                    <h2 class="card-tittle">
+                        A_Bison
+                    </h2>
+                    <p class="card-description">
+                        Bison, symbolic animals of the Great Plains, are often mistakenly called buffaloes.
+                        they are the heaviest land animals in North America.
+                    </p>
+                </div><a href="./bison.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card zebra">
+                <div class="card-body">
+                    <img src="./images/zebra-ic.webp" alt="Bison" class="card-img">
+                    <h2 class="card-tittle">
+                        Plains Zebra
+                    </h2>
+                    <p class="card-description">
+                        No animal has a more distinctive coat than the zebra. Each animal's stripes are as unique as
+                        fingerprints—no two are
+                        exactly alike.
+                    </p>
+                </div><a href="./zebra.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card secretary-bird">
+                <div class="card-body">
+                    <img src="./images/secretary-bird-ic.webp" alt="secretary-bird" class="card-img">
+                    <h2 class="card-tittle">
+                        Secretary Bird
+                    </h2>
+                    <p class="card-description">
+                        These raptors of sub-Saharan Africa’s savannas, grasslands, and shrub lands stand at nearly four
+                        feet tall.
+                    </p>
+                </div><a href="./secretary-bird.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card Leopard">
+                <div class="card-body">
+                    <img src="./images/leopard-ic.webp" alt="Leopard" class="card-img">
+                    <h2 class="card-tittle">
+                        Leopard
+                    </h2>
+                    <p class="card-description">
+                        Leopards are graceful and powerful big cats. They live in sub-Saharan Africa, northeast Africa,
+                        Central Asia, India, and
+                        China.
+                    </p>
+                </div><a href="./Leopard.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
+            <div class="card Ring-Billed-Gull">
+                <div class="card-body">
+                    <img src="./images/Ring-Billed-Gull-ic.webp" alt="Ring-Billed Gull" class="card-img">
+                    <h2 class="card-tittle">
+                        R-B_Gull
+                    </h2>
+                    <p class="card-description">
+                        This is the common and familiar “sea­gull” across much of North America yet it is rarely seen
+                        offshore.
+                    </p>
+                </div><a href="./ring-billed-gull.html">
+                    <button class="card-btn">
+                        Read more
+                    </button></a>
+            </div>
